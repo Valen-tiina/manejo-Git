@@ -1,0 +1,293 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+*{
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+}
+.titulos, .first h1{
+  font-family: "Bebas Neue", sans-serif;
+  padding: 0 0 3vh 0;
+  font-weight: lighter;
+}
+p{
+  font-size: 17px;
+}
+.btnVario{
+  border: none;
+  font-weight: bolder;
+  padding: 1vh 2.5vh;
+  margin: 3vh 0 0 0;
+  cursor: pointer;
+}
+nav{
+  display: flex;
+  padding: 2vh 7vh;
+  justify-content: space-between;
+  background-color: rgba(245,203,0,255);
+}
+nav img{
+  width: 8vh;
+  height: min-content;
+}
+ul{
+  display: flex;
+  list-style-type: none;
+  cursor: pointer;
+}
+li{
+  padding: 1vh;
+  font-weight: bold;
+}
+
+header{
+  display: flex;
+  padding: 9vh 12vh;
+
+}
+header img{
+  width: 90vh;
+  height: min-content;
+}
+.first{
+  padding: 6vh 12vh;
+
+}
+.first h1{
+  font-size: 12vh;
+  line-height: 10vh;
+}
+
+.first button, .five button, .six1 button, .seven1 button{
+  background-color: rgba(245,203,0,255);
+}
+
+
+.second{
+  background-color: rgba(230,230,230,255);
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  padding: 10vh;
+  box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.192);
+  width: fit-content;
+}
+.second1{
+  padding: 0 10vh 0 0;
+}
+.second h2, .four1 h2{
+  color: rgba(245,203,0,255);
+  font-size:8vh;
+  line-height: 7vh;
+}
+.second img{
+  width: 25vh;
+  height: min-content;
+  align-self: center;
+}
+.second p{
+  width: 30vh;
+}
+.nose{
+  background: linear-gradient(to bottom, #ffffff00 50%, rgba(245,203,0,255)50%) ;
+  position: relative;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+}
+.second1 button{
+  border: none;
+  background:none;
+  font-weight: bolder;
+  padding: 1vh 0;
+  cursor: pointer;
+}
+
+.third{
+  background-color: rgba(245,203,0,255);
+ padding: 20vh 30vh;
+  display: flex;
+}
+.third img{
+  width: 70vh;
+  padding: 10vh 0 0 0;
+}
+.third h2, .seven1 h2{
+  font-size:8vh;
+  line-height: 7vh;
+}
+.third p{
+  width: 30vh;
+}
+.third button, .four1 button, .eight1 button, .nine button{
+  background-color: black;
+  color: white;
+}
+
+.four{
+  display: flex;
+  margin: 20vh 30vh;
+  background-color: rgba(230,230,230,255);
+  box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.192);
+
+}
+.four img{
+  width:50%;
+}
+.four1{
+  padding: 5vh;
+  align-content: center;
+}
+.four1 img{
+  padding: 2vh 0;
+  align-self: flex-end;
+  width: 20vh;
+}
+.five{
+  display: flex;
+  flex-direction: column;
+  padding: 10vh 30vh;
+  align-items: center;
+  background-color: black;
+}
+.five h2{
+color: rgba(245,203,0,255);
+font-size: 5vh;
+}
+.five p{
+  width: 70vh;
+  margin: 1vh 0 4vh 0;
+  color: white;
+}
+.five img{
+  width: 100vh;
+  height: 65vh;
+  object-fit: cover; 
+  object-position:bottom; 
+}
+
+.six{
+  display: flex;
+  margin: 20vh 30vh;
+}
+.six1{
+ align-content: center;
+  padding: 0 0 0 4vh;
+}
+.six1 h2{
+font-size: 6vh;
+}
+.six img{
+  width: 50%;
+}
+
+.seven{
+  display: flex;
+  margin: 20vh 30vh;
+}
+
+.seven img{
+  width: 150vh;
+}
+.seven1{
+  align-content: center;
+  padding: 0 4vh 0 0;
+}
+
+.form{
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  color: white;
+  padding: 4vh;
+  font-weight: bold;
+  font-size: 15px;
+  width: 500px;
+  justify-content: center;
+}
+label{
+  display: flex;
+  flex-direction: column;
+}
+.eight{
+ display: flex;
+ margin: 20vh 30vh;
+}
+
+.formName{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.formName input{
+  width: 23vh;
+}
+input, textarea{
+  background-color: black;
+  border: white 2px solid;
+  color: white;
+  margin: 1vh 0;
+}
+textarea{
+  height: 20vh;
+  width: auto;
+}
+.textmin{
+  font-size: 11px;
+}
+
+.eight1{
+  align-content: center;
+  padding: 0 0 0 8vh;
+}
+
+.eight1 h2{
+  font-size: 6vh;
+  color: rgb(255, 215, 17);
+}
+.eight1 p{
+  width: 45vh;
+}
+
+.nine{
+  display: flex;
+  flex-direction: column;
+  padding: 10vh 30vh;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  background-color: rgba(245,203,0,255);
+}
+.nine button{
+  width: 107px;
+  align-self: center;
+}
+.nine h2{
+  font-size: 5vh;
+}
+.nine img{
+  padding: 2vh 0;
+}
+
+footer{
+  background-color: black;
+  padding: 4vh;
+  color: rgba(245,203,0,255);
+}
+
+footer ul{
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  padding: 0;
+  line-height: 1vh;
+}
+
+.listFooter{
+  display: flex;
+  margin: 0 0 10vh 0;
+}
+
+footer p{
+  font-weight: bold;
+}
